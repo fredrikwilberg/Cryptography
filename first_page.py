@@ -3,8 +3,6 @@ from Cypher_with_secret_key import cypher
 import Cypher_with_secret_key as CWSK
 import tkinter.messagebox
 
-g = 1
-
 
 def secret_message(entry_1):
     encrypted_message = entry_1
@@ -18,7 +16,7 @@ def secret_message(entry_1):
 
 def focus_next_widget(event):
     event.widget.tk_focusNext().focus()
-    return("break")
+    return "break"
 
 
 def copy_text_to_clipboard(message):
@@ -38,16 +36,12 @@ def _about():
 
 root = Tk()
 
-
-
 # Title
 root.title('Cypher')
 
-
-
 # Icon
 
-root.iconbitmap('C:\\Users\\fredrik.wilberg\\Python - MasterClass\\Cypher_multiple_Pages\\secure_icon.ico')
+root.iconbitmap('C:\\Users\\fredrik.wilberg\\Python - MasterClass\\Cryptography\\secure_icon.ico')
 
 # Menu bar
 menu = Menu(root)

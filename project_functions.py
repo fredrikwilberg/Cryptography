@@ -2,9 +2,6 @@ import tkinter as tk
 from Cypher_with_secret_key import cypher
 
 
-g = 1
-
-
 def secret_message(entry_1):
     encrypted_message = entry_1
     secret_key = entry_2.get()

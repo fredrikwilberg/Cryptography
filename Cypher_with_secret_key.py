@@ -1,8 +1,5 @@
-
-
 def cypher(encrypted_message, secret_key, label_3):
-    # encrypted_message = input('What is the encrypted message? ')
-    # secret_key = input('What is the Secret Key? ')
+
     global message
 
     message = ''
